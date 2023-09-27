@@ -9,6 +9,7 @@
         flex-flow: row nowrap;
         justify-content: space-between;
         align-items: center;
+        order: 1;
     }
 
     a {
@@ -36,6 +37,7 @@
     .table {
         border: 1px solid black;
         max-width: 500px;
+        order: 2;
     }
 }
 
