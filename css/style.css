@@ -10,11 +10,6 @@
         align-items: center;
     }
 
-    .content {
-        display: flex;
-        flex-flow: column nowrap;
-    }
-
     a {
         text-decoration: none;
     }
