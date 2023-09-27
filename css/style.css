@@ -44,7 +44,7 @@
     }
 }
 
-@media (min-width: 480px) {
+@media (min-width: 413px) {
     header {
         background-color: gray;
         border: 5px solid black;
