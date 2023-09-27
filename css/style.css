@@ -2,10 +2,28 @@
 @media screen and (max-width: 1440px) {
     header {
         width: 100%;
+        background-color: gray;
+        border: 5px solid black;
+        color: white;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    a {
+        text-decoration: none;
     }
 
     footer {
+        height: 60px;
         width: 100%;
+    }
+
+    th {
+        width: 250px;
+        border: 1px solid black;
+        font-weight: normal;
     }
 
     .footer {
@@ -13,6 +31,11 @@
         flex-flow: row nowrap;
         justify-content: space-between;
         align-items: end;
+    }
+
+    .table {
+        border: 1px solid black;
+        max-width: 500px;
     }
 }
 
