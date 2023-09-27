@@ -1,4 +1,4 @@
-@media screen and (max-width: 1080px){
+@media screen and (orientation: portrait){
     header {
         background-color: gray;
         border: 5px solid black;
