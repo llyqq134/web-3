@@ -1,13 +1,18 @@
-@media screen {
+@media screen and (max-width: 1080px){
     header {
         background-color: gray;
         border: 5px solid black;
         color: white;
         max-width: 100%;
         display: flex;
-        flex-flow: row nowrap;
+        flex-flow: column nowrap;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .content {
+        display: flex;
+        flex-flow: column nowrap;
     }
 
     a {
@@ -35,6 +40,7 @@
     .table {
         border: 1px solid black;
         max-width: 500px;
+        order: -1;
     }
 }
 
