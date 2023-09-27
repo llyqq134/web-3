@@ -1,11 +1,18 @@
 
-@media (max-width: 1440px) {
+@media (min-width: 480px) {
     header {
         width: 100%;
     }
 
     footer {
         width: 100%;
+    }
+
+    .footer {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: end;
     }
 }
 
