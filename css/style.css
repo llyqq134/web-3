@@ -1,4 +1,4 @@
-@media screen and (max-width: 412px){
+@media screen and (max-width: 425px){
     header {
         background-color: gray;
         border: 5px solid black;
@@ -44,7 +44,7 @@
     }
 }
 
-@media (min-width: 413px) {
+@media (min-width: 426px) {
     header {
         background-color: gray;
         border: 5px solid black;
